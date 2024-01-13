@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(31, 167, 213);
+        }
+
+        h1 {
+            display: inline-block;
+            padding: 20px 20px;
+        }
+
+        a {
+            /* display: inline-block; */
+            float: right;
+            padding: 15px 20px;
+            margin: 15px 4px;
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        .container {
+            /* text-align: center; */
+            border: 4px solid black;
+            padding: 23px 10px;
+            margin: 25px 200px;
+            margin-top: 50px;
+
+        }
+
+        #username {
+            height: 20px;
+            width: 300px;
+            position: relative;
+            left: 30%;
+            margin-bottom: 5px;
+        }
+
+        #password{
+            height: 20px;
+            width: 300px;
+            position: relative;
+            left: 30%;
+            margin-bottom: 9px;
+
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+            margin: 5px 27px;
+        }
+
+        .Login {
+            margin: 10px 3px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: left;
+            position: relative;
+            left: 30%;
+            font-size: 25px;
+        }
+
+        input {
+            text-align: left;
+            height: 20px;
+            width: 200px;
+        }
+        #submit{
+            color: green;
+            width: 100px;
+            text-align: center;
+            background-color: black;
+            margin-top: 5px;
+            position: relative;
+            left: 45%;
+            height: 30px;
+        }
+
+        a:hover{
+            color: green ;
+            background-color: darkblue;
+        }
+        a:active{
+            color: darkgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="Login_user.jsp">
+        <h1>Contingent Worker Finder</h1>
+        <a href="#">About Us</a>
+        <a href="user.html">SignUp</a>
+        <a href="Worker_signup.html">Worker SignUp</a>
+        <div class="container">
+            <h2 class="Login">Login</h2>
+            <h3>Username: </h3>
+            <input type="text" name="username" id="username" placeholder="Enter usename">
+            <br>
+
+            <h3>Password: </h3>
+            <input type="text" name="password" id="password" placeholder="Enter Password">
+            <br>
+
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    <img src="worker-34336.png" alt="Picture of Plumber" style="height: 100%">
+    <img src="Electrician.jpg" alt="Picture of Electrician" style="width: 390px;">
+    <img src="driver.jpg" alt="picure of driver">
+    <img src="technician.jpg" alt="Picture of tech">
+</body>
+
+</html>
